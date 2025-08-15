@@ -7,6 +7,7 @@ RustでLSP(Language Server Protocol)の勉強をしていた時の学習記録
 claude codeでlessonを1つずつ作ってもらい、それを解いて添削してもらうという形で進めた
 
 lessonは、./explanations/ に解説ファイルを、./src/lessons/に問題ファイルを置く形で作成してもらった。
+現在./src/lessons/にあるファイルは全て解答後の状態である。
 
 問題を解く流れ
 
