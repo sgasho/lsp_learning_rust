@@ -1,0 +1,21 @@
+[package]
+name = "lsp_learning_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+lsp-types = "0.95"
+
+ide_assists = { git = "https://github.com/rust-lang/rust-analyzer.git", package = "ide-assists" }
+ide-db = { git = "https://github.com/rust-lang/rust-analyzer.git", package = "ide-db" }
+syntax = { git = "https://github.com/rust-lang/rust-analyzer.git", package = "syntax" }
+edition = "1.0.1"
+
+# This section defines our project as a library
+# and connects the source files to the tests.
+[lib]
+name = "lsp_learning_rust"
+path = "src/lib.rs"
+
